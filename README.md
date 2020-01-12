@@ -8,7 +8,7 @@ contents:
 
 * [snowpack](https://snowpack.dev)
 * [react-esm](https://www.npmjs.com/org/reactesm)
-* [styled-components](https://styledcomponents.com)
+* [styled-components](https://styled-components.com)
 * [es-module-shims](https://github.com/guybedford/es-module-shims)
 * [kv-storage](https://github.com/WICG/kv-storage)
 * [workbox](https://developers.google.com/web/tools/workbox)
@@ -34,7 +34,7 @@ yarn optimize
 
 ### progressive web app (workbox)
 
-workbox is configured to be run before each commit to generate the caching configuration and whatever else you want to configure a pwa for.
+workbox is configured to be run during build to generate the caching configuration.
 
 intialization:
 
@@ -42,7 +42,7 @@ intialization:
 yarn pwa:init
 ```
 
-to generate caching with each build:
+to generate caching with each build
 
 ```sh
 yarn pwa
