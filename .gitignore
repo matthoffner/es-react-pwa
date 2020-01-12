@@ -1,0 +1,5 @@
+node_modules/
+src/web_modules/
+yarn.lock
+src/sw.js
+workbox-config.js
