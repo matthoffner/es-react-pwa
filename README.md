@@ -2,7 +2,9 @@
 
 minimalist and modern react boilerplate designed for minimal configuration.
 
-please note this uses a forked react build to work with es modules. there is optimisim that react will support an es module compatable build soon.
+note this uses a forked react build to work with es modules. there is optimisim that react will support an es module compatable build soon.
+
+[demo](https://es-react-pwa.netlify.com/)
 
 contents:
 
