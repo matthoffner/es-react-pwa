@@ -1,15 +1,18 @@
 # es-react-pwa
 
-modern react es modules boilerplate. no babel transpilation or webpack build.
+minimalist and modern react boilerplate designed for minimal configuration.
+
+please note this uses a forked react build to work with es modules. there is optimisim that react will support an es module compatable build soon.
 
 contents:
 
 * [snowpack](https://snowpack.dev)
-* [react-esm]
-* [styled-components]()
-* [es-module-shims]()
-* [kv-storage]()
-* [workbox]()
+* [react-esm](https://www.npmjs.com/org/reactesm)
+* [styled-components](https://styledcomponents.com)
+* [es-module-shims](https://github.com/guybedford/es-module-shims)
+* [kv-storage](https://github.com/WICG/kv-storage)
+* [workbox](https://developers.google.com/web/tools/workbox)
+* [htm](https://github.com/developit/htm)
 
 concepts:
 
