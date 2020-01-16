@@ -9,17 +9,7 @@
       name="viewport"
       content="width=device-width, initial-scale=1, shrink-to-fit=no"
     />
-    <script type="importmap-shim">
-    {
-      "imports": {
-        "htm": "/src/web_modules/htm.js",
-        "react": "/src/web_modules/react.js",
-        "react-dom": "/src/web_modules/react-dom.js",
-        "std:kv-storage": "/src/web_modules/kv-storage-polyfill.js",
-        "styled-components": "/src/web_modules/styled-components.js"
-      }
-    }
-    </script>
+    <script type="importmap-shim" src="./src/web_modules/import-map.json"></script>
     <script defer src="./src/index.js" type="module-shim"></script>
     <script>
       if ('serviceWorker' in navigator) {
