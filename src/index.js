@@ -6,7 +6,7 @@ window.html = htm.bind(React.createElement)
 
 const Route = {
   '/': React.lazy(() => import('./routes/home/index.js')),
-  '*': React.lazy(() => import('./routes/notfound/index.js')),
+  '/about': React.lazy(() => import('./routes/about/index.js')),
 }
 
 ReactDOM.render(

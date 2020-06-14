@@ -8,17 +8,18 @@ const Title = styled.h1`
 `;
 const Wrapper = styled.section`
   padding: 4em;
-  background: lightblue;
-  box-shadow: 10px;
+  background: papayawhip;
 `;
 
 export default () => {
 return html`
 <${React.Fragment}>
 <${Wrapper}>
-  <${Title}>es-react-pwa<//>
+  About
 <//>
-<a href="/about">About</a>
+<p>
+    This is an example of a modern React template that doesn't require any transpiling or bundling thanks to ES modules, importmaps along with workbox for offline PWA capabilities.
+</p>
 <//>
 `;
 }

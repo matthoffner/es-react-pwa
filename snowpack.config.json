@@ -4,8 +4,7 @@
         "htm",
         "react",
         "react-dom",
-        "styled-components",
-        "kv-storage-polyfill"
+        "styled-components"
     ],
     "scripts": {
         "mount:public": "mount public --to /",
