@@ -9,7 +9,6 @@ note this uses a forked react build to work with es modules. there is optimisim 
 contents:
 
 * [snowpack](https://snowpack.dev)
-* [react-esm](https://www.npmjs.com/org/reactesm)
 * [styled-components](https://styled-components.com)
 * [es-module-shims](https://github.com/guybedford/es-module-shims)
 * [kv-storage](https://github.com/WICG/kv-storage)
@@ -22,7 +21,7 @@ concepts:
 
 included is es module shims, which includes polyfill support for `importmaps`. these allow direct global imports. this is key in not requiring babel.
 
-## tree shaking (snowpack)
+## web modules (snowpack)
 
 snowpack allows you to treeshake es module dependencies in a convinient way. there is a production command that will do the treeshaking, and a post npm install step which will localize the es modules.
 

@@ -1,3 +1,6 @@
 node_modules/
 src/web_modules/
 src/sw.js
+src/workbox-*.js
+src/workbox-*.js.map
+src/sw.js.map

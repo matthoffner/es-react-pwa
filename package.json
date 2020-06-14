@@ -5,9 +5,10 @@
   "main": "index.js",
   "scripts": {
     "clean": "rm -rf node_modules && rm -rf src/web_modules && rm yarn.lock",
-    "prepare": "snowpack --dest \"src/web_modules/\" --include \"src/**/*.js\"",
+    "dev": "snowpack dev",
+    "prepare": "snowpack --dest \"src/web_modules/\"",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "optimize": "snowpack --dest \"src/web_modules/\" --include \"src/**/*.js\" --optimize",
+    "optimize": "snowpack build --dest \"src/web_modules/\"",
     "pwa": "workbox generateSW workbox-config.js",
     "pwa:init": "workbox wizard"
   },
@@ -15,24 +16,17 @@
     "optimize",
     "pwa"
   ],
-  "snowpack": {
-    "webDependencies": [
-      "es-module-shims",
-      "kv-storage-polyfill"
-    ]
-  },
   "author": "Matt Hoffner",
   "license": "ISC",
   "devDependencies": {
-    "snowpack": "^1.0.0",
+    "snowpack": "^2.0.0",
     "workbox-cli": "latest"
   },
   "dependencies": {
-    "es-module-shims": "^0.4.6",
     "htm": "^2.2.1",
     "kv-storage-polyfill": "^2.0.0",
-    "react": "yarn:@reactesm/react@^0.1.0",
-    "react-dom": "yarn:@reactesm/react-dom@^0.1.1",
+    "react": "^16.0.0",
+    "react-dom": "^16.0.0",
     "styled-components": "^4.4.1"
   }
 }
