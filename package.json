@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "clean": "rm -rf node_modules && rm -rf src/web_modules && rm yarn.lock",
+    "clean": "rm -rf node_modules && rm -rf src/web_modules && rm package-lock.json",
     "dev": "snowpack dev",
     "prepare": "snowpack --dest \"src/web_modules/\"",
     "test": "echo \"Error: no test specified\" && exit 1",
