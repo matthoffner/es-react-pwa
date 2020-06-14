@@ -4,17 +4,18 @@
     <meta charset="utf-8">
     <title>es-react-pwa</title>
     <base href="/">
-    <script defer src="./src/es-module-shims.js"></script>
+    <link rel="manifest" href="/manifest.webmanifest">
+    <script defer src="./es-module-shims.js"></script>
     <meta
       name="viewport"
       content="width=device-width, initial-scale=1, shrink-to-fit=no"
     />
-    <script type="importmap-shim" src="./src/web_modules/import-map.json"></script>
-    <script defer src="./src/index.js" type="module-shim"></script>
+    <script type="importmap-shim" src="./web_modules/import-map.json"></script>
+    <script defer src="./index.js" type="module-shim"></script>
     <script>
       if ('serviceWorker' in navigator) {
         window.addEventListener('load', () => {
-          navigator.serviceWorker.register('./src/sw.js').then(() => {
+          navigator.serviceWorker.register('./sw.js').then(() => {
             console.log('ServiceWorker registered!');
           }, (err) => {
             console.log('ServiceWorker registration failed: ', err);

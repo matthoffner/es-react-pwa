@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "clean": "rm -rf node_modules && rm -rf src/web_modules && rm package-lock.json",
-    "dev": "snowpack dev",
+    "serve": "servor src",
     "prepare": "snowpack --dest \"src/web_modules/\"",
     "test": "echo \"Error: no test specified\" && exit 1",
     "optimize": "snowpack build --dest \"src/web_modules/\"",
@@ -19,6 +19,7 @@
   "author": "Matt Hoffner",
   "license": "ISC",
   "devDependencies": {
+    "servor": "^4.0.2",
     "snowpack": "^2.0.0",
     "workbox-cli": "latest"
   },

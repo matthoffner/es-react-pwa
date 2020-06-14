@@ -1,7 +1,9 @@
 module.exports = {
-  "globDirectory": "./",
+  "globDirectory": "./src",
   "globPatterns": [
     "**/*.{html,js}"
   ],
-  "swDest": "./src/sw.js"
+  "swDest": "src/sw.js",
+  "clientsClaim": "true",
+  "skipWaiting": "true"
 };

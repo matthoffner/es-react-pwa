@@ -1,0 +1,9 @@
+{
+    "short_name": "es-react-pwa",
+    "name": "es-react-pwa",
+    "description": "A demo using es modules, react and pwa with snowpack",
+    "start_url": "/",
+    "background_color": "#3367D6",
+    "display": "standalone",
+    "scope": "/"
+  }
