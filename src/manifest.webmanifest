@@ -5,5 +5,12 @@
     "start_url": "/",
     "background_color": "#3367D6",
     "display": "standalone",
-    "scope": "/"
+    "scope": "/",
+    "icons": [
+        {
+            "src": "icons/sample.png",
+            "sizes": "48x48",
+            "type": "image/png"
+        }
+    ]
   }
