@@ -4,6 +4,6 @@ module.exports = {
     "**/*.{html,js}"
   ],
   "swDest": "src/sw.js",
-  "clientsClaim": "true",
-  "skipWaiting": "true"
+  "clientsClaim": true
+  "skipWaiting": true
 };
